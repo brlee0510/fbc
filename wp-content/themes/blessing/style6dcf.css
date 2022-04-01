@@ -2181,7 +2181,7 @@ a.btn-slider{
 	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{ margin-bottom:30px;}	
 	header.cbp-af-header, header.cbp-af-header.cbp-af-header-shrink {
 		display:block;
-		position:static;
+		/* position:static; */
 		margin:0;
 		padding:0;
 		margin-top:0;
@@ -2193,8 +2193,8 @@ a.btn-slider{
 		-o-transition : all 0.6s ease 0s;
 		transition : all 0.6s ease 0s;	
 	}
-	header .logo-2 {display: block;}
-	header .logo-1 {display: none;}
+	header .logo-2 {display: none;}
+	header .logo-1 {display: block;}
 	header #logo{
 		padding-top:10px;
 		display:block;
